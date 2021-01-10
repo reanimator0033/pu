@@ -1,0 +1,47 @@
+.feed {
+    .container {
+    display: flex;
+    flex-direction: column;
+    }
+    h2 {
+        margin-bottom: 70px;
+    }
+    &__item {
+        display: flex;
+        margin-top: 100px;
+    }
+    &__img {
+        margin-right: 60px;
+        min-width: 169px;
+        height: 169px;
+        border-radius: 100%;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        width: 650px;
+    }
+    &__subtitle {
+        display: block;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: left;
+        margin-bottom: 11px;
+    }
+    &__count {
+        display: block;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: left;
+        margin-bottom: 19px;
+    }
+    &__descr {
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+        
+    }
+
+}
+   
