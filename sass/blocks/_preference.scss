@@ -31,5 +31,10 @@
                 color: #ff0000;
             }
         }
-    
+    .advantages__icon_animated {
+        animation: heartbeat 5s ease infinite ;
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
 }
